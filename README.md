@@ -1,26 +1,19 @@
 # TWRP Samsung Galaxy A10s
 
-## How to compile it:
-
-To build:
+# How-to build:
+```
 export ALLOW_MISSING_DEPENDENCIES=true
-
-setup envirnoment
-`. build/envsetup.sh`
-
-then prepare
-`lunch omni_a10sxx-eng`
-
-make the image
-`mka recoveryimage`
-
+. build/envsetup.sh
+lunch omni_a10s-eng
+mka recoveryimage
+```
 ## How to find the image built
 
 `cd /out/target/product/a10s`
 
 see recovery.img
 
-# Device Tree for Samsung Galaxy A10s (SM-A107F)
+# Device Tree for Samsung Galaxy A10s (SM-A107F/DS)
 
 Device Tree Made by topser9
 
